@@ -72,7 +72,7 @@ if __name__ == "__main__":
 
 """
 Examples:
-  python main.py --goal baseline --name fraud-dev --dataset-path ./data/wine.csv --mode local
-  python main.py --goal ml_train --name fraud --dataset-path s3://bucket/data.csv --mode cloud
-  python main.py --goal deploy --name fraud-simulate --dataset-path ./data/fraud.csv --mode localstack
+  python main.py --goal baseline --name fraud-dev --dataset-path ./data/fraud_data.csv --mode local
+  python main.py --goal ml_train --name fraud --dataset-path s3://bucket/fraud_data.csv --mode cloud
+  python main.py --goal deploy --name fraud-simulate --dataset-path ./data/fraud_data.csv --mode localstack
 """
